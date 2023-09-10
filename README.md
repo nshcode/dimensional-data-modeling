@@ -13,8 +13,13 @@ published on medium.
 3. CD into directory with that file.
 4. Unzip the file bikeStores.zip
 5. Install the schema bike_stores
+
    psql -f bikeStores/BikeStores/create_bike_stores_tables.sql -U postgres -d bike_stores
+   
    psql -f bikeStores/BikeStores/load_bike_stores_data.sql -U postgres -d bike_stores
-6. Install the schema dwh
+   
+7. Install the schema dwh
+   
    psql -f dwh/create_dimensions.sql -U postgres -d bike_stores
+   
    psql -f dwh/create_facts.sql -U postgres -d bike_stores
