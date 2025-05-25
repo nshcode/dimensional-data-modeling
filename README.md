@@ -1,8 +1,10 @@
 # Dimensional Data Modeling
 ## Introduction
-The repository contains the SQL scripts for creating a dimensional model for the database BikeStores available at https://www.sqlservertutorial.net/sql-server-sample-database/. The SQL scripts contained here are accompanying material for the article
+The repository contains the SQL scripts for creating a dimensional model for the database BikeStores available at https://www.sqlservertutorial.net/sql-server-sample-database/. 
 
-[Practical Introduction to Dimensional Data Model](URL)
+The SQL scripts contained here are accompanying material for the article
+
+[Practical Introduction to Dimensional Data Design](https://medium.com/@nuhad.shaabani/practical-introduction-to-dimensional-data-design-e3fadb7b6ac4)
 
 published on medium.
 
